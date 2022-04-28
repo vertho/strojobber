@@ -12,7 +12,7 @@ var options = {
 };
  
 var geocoder = NodeGeocoder(options);
-geocoder.geocode('munkerudveien 75 b, 1165 Oslo')
+geocoder.geocode('Jernbanetorget 1, 0154 Oslo)
   .then(function(res) {
     result=res;
   })
